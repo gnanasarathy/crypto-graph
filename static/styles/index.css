@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+.container{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.currency-button{
+    width: 18%;
+    height: 50px;
+    background-color: olive;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.chart{
+    height: 500px; 
+    margin-top: 5%;
+    
+}
